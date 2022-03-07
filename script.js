@@ -55,12 +55,6 @@ if (randomNum !== 3 && randomNum !== 5) {
     console.log("NOT equal to 3 AND not equal to 5");
 }
 
-// OR. Using
-if (randomNum !==3 && 5) {
-    console.log("NOT equal to 3 AND not equal to 5"); 
-}
-
-
 // 1e. Using another separate if statement (Not part of the ones created above) have the following display "Equal to 2 OR equal to 4" if the value for randomNum is either 2 or 4.
 if (randomNum === 2 || randomNum === 4) {
     console.log("Equal to 2 OR equal to 4")
